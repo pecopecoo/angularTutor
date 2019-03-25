@@ -1,0 +1,41 @@
+@media screen and (min-width: 200px){
+  .container {
+    position: relative;
+    width: 200%;
+    height:300px;
+    border: 4px solid mediumaquamarine;
+    margin: 0 auto;
+  }
+  nav {
+    position: absolute;
+    left: 0px;
+    width: 200px;
+    height: 200px;
+    border: 4px solid deeppink;
+    padding: 15px;
+  }
+  mark {
+    background-color: lightgrey;
+  }
+  section {
+    position: relative;
+    display: inline-block;
+    width: 84.8%;
+    vertical-align: top;
+    margin-left: 185px;
+    border: 4px solid gold;
+    padding: 15.5px;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 70px;
+    background-color: white;
+    width: 100%;
+  }
+  body {
+    margin-bottom: 120px;
+  }
+}
+
